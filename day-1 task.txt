@@ -1,7 +1,7 @@
 1.Write a blog on Difference between HTTP1.1 vs HTTP2
 
 *HTTP1.1
-It works on the textual format.
+It works on the text based procol.
 There is head of line blocking that blocks all the requests behind it until it doesn’t get its all resources.
 It uses requests resource Inlining for use getting multiple pages
 It compresses data by itself.
@@ -28,3 +28,46 @@ In JavaScript, every object has an internal representation that consists of:
 [[Class]]: A string that indicates the type of object, such as "Object", "Array", or "Function".
 [[Extensible]]: A boolean value that indicates whether new properties can be added to the object.
 [[Get]] and [[Set]]: Methods used to access and modify the object's properties, respectively.
+
+3.Read about IP address, port, HTTP methods, MAC address
+
+IP address:
+  An Internet Protocol address (IP address) is a numerical label such as 192.0.2.1 that is connected to a
+  computer network that uses the Internet Protocol for communication
+port:
+  A port is a number used to uniquely identify a transaction over a network by specifying both the host and the service. 
+  Port numbers range from 0 to 65535
+MAC address:
+  A media access control address is a unique identifier assigned to a network interface controller for use
+  as a network address in communications within a network segment.
+  This use is common in most IEEE 802 networking technologies, including Ethernet, Wi-Fi, and Bluetooth
+HTTP Methods:
+  
+GET
+The GET method requests a representation of the specified resource. Requests using GET should only retrieve data.
+
+HEAD
+The HEAD method asks for a response identical to a GET request, but without the response body.
+
+POST
+The POST method submits an entity to the specified resource, often causing a change in state or side effects on the server.
+
+PUT
+The PUT method replaces all current representations of the target resource with the request payload.
+
+DELETE
+The DELETE method deletes the specified resource.
+
+CONNECT
+The CONNECT method establishes a tunnel to the server identified by the target resource.
+
+OPTIONS
+The OPTIONS method describes the communication options for the target resource.
+
+TRACE
+The TRACE method performs a message loop-back test along the path to the target resource.
+
+PATCH
+The PATCH method applies partial modifications to a resource.
+  
+   
